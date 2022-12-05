@@ -1,7 +1,10 @@
 function onCreate()
 
-    makeLuaText('score', 0, 500, 0, 0);
+    makeLuaText('score', 0, 700, 0, 100);
     addLuaText('score');
+    setTextWidth('score', 1300);
+    setTextSize('score', 50);
+    setTextAlignment('score', 'center');
 
 end
 
